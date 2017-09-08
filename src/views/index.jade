@@ -1,0 +1,30 @@
+-var list=[1,2,3,4,5]
+html
+    head
+        //- bower:css
+        link(rel='stylesheet', href='/lib/bootstrap/dist/css/bootstrap.css')
+        link(rel='stylesheet', href='/lib/font-awesome/css/font-awesome.min.css')
+        //- endbower
+        //- bower:js
+        script(src='/lib/jquery/dist/jquery.js')
+        script(src='/lib/bootstrap/dist/js/bootstrap.js')
+        //- endbower
+        //- inject:css
+
+        link(rel="stylesheet", href="/css/styles.css")
+
+        //- endinject
+        //- inject:js
+        
+        script(src="/js/test.js")
+        
+        //- endinject
+        title Ahmed Hemida
+    body
+        h1 40 Years Software development house
+        p
+            h3 StartUp Company for SoftWare and Mobile Development
+            h2 Give it a try
+        ul
+            each val in list
+                li=val    
