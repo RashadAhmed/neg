@@ -4,11 +4,15 @@ var mongodb = require('mongodb').MongoClient;
 
 var books = [{
         title: 'Karamzov Brother',
-        authot: 'Destoveski'
+        authot: 'Destoveski',
+        bookId: 656,
+        read: false
     },
     {
-        title: 'Brother',
-        authot: 'Hamidovich'
+        title: 'Crime and Punishment',
+        authot: ' Fyodor Dostoyevsky',
+        bookId: 7144,
+        read: false
     },
     {
         title: 'a7a',
